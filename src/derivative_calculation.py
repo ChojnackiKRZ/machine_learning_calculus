@@ -18,7 +18,7 @@ def funcx(x, function):
     return eval(function)
 
 def der_funcx(x, function):
-    return eval(str(sym.diff(str(function))))
+    return eval(str(sym.diff(function)))
 
 # compute f(x) for x=--2 to x=3
 x = np.linspace(-2,3,500)
